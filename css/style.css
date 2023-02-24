@@ -1,0 +1,310 @@
+/* header */
+
+/* googlefont ROBOTO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+/* nav bar */
+/*****************/
+.navbarHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logokanusPrincipal {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: auto;
+    /* object-fit: cover */
+}
+
+.navbarleft {
+    display: flex;
+    text-align: center;
+}
+
+.listaNav {
+    display: flex;
+    list-style-type: none;
+    position: relative;
+}
+
+.navbar {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.navbarDes {
+    color: rgb(134, 134, 134);
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* iconos Navbar */
+/*****************/
+.fa-solid {
+    color: rgb(134, 134, 134);
+    font-size: 27px;
+    --ionicon-stroke-width: 35px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-people-group {
+    margin-left: 20px;
+}
+
+.fa-solid:hover {
+    color: rgb(56, 55, 55);
+}
+
+
+/* CAROUSEL */
+/*****************/
+.cauroselImg {
+    width: 95%;
+    height: auto;
+    object-fit: cover;
+}
+
+.pCarouselTitulo {
+    font-size: large;
+    color: rgb(247, 246, 246);
+    text-align: center;
+}
+
+.pCarousel {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/* main */
+h1 {
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-variant: small-caps;
+}
+
+form {
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.buttonWhatsApp {
+    width: 70px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+
+}
+
+.fa-brands {
+    font-size: 90px;
+    --ionicon-stroke-width: 35px;
+    color: rgb(168, 235, 81);
+}
+
+.parrafoIntro,
+p { 
+    color: rgb(170, 165, 165);
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+
+}
+
+/* footer */
+.fotterPrincipal {
+    background-color: rgb(56, 56, 56);
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(177, 174, 174);
+    text-align: center;
+}
+
+
+.lifooter,
+.lifooterHorario,
+.lifooterInsta,
+.lifotterfacebook,
+.lifootermensaje {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.lifooterHorario {
+    font-weight: bold;
+}
+
+.fa-clock,
+.fa-phone,
+.fa-location-dot {
+    color: rgb(177, 174, 174);
+}
+
+.fa-instagram {
+    color: rgb(168, 235, 81);
+    font-size: 50px;
+}
+
+.fa-facebook {
+    color: rgb(168, 235, 81);
+    font-size: 50px;
+}
+
+.footerPrincipal2 {
+    background-color: rgb(44, 44, 44);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.lifootermensaje {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(247, 244, 244);
+    font-size: 1.5em;
+}
+
+.listafooterPrincipal2 {
+    display: flex;
+
+}
+
+.fa-instagram,
+.fa-facebook {
+    cursor: pointer;
+}
+
+.fa-instagram:hover,
+.fa-facebook:hover {
+    color: rgb(177, 174, 174)
+}
+
+.googlemapsResponsive {
+    overflow: hidden;
+    padding-bottom: 60%;
+    position: relative;
+    height: 0;
+}
+
+.googlemapsResponsive iframe {
+    left: 0.5%;
+    right: 10%;
+    top: 10%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* Nuestra Clínica */
+
+.imagenesfrentevete {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 35px;
+    font-variant: small-caps;
+    font-size: 25px;
+}
+
+.pilarbulldog,
+.taniachowchow {
+    margin-left: 200px;
+    margin-top: 30px;
+    border: 2px grey solid;
+}
+
+.taniachowchow {
+    width: 320px;
+}
+
+.pilarbulldog {
+    width: 350px;
+}
+
+.equipodetrabajo {
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+.fotonombre {
+    display: flex;
+
+}
+
+.nuestraclinicah3 {
+    text-align: center;
+    margin-left: 200px;
+}
+
+.nuestraclinicah2 {
+    margin-bottom: 10px;
+}
+
+/* Servicios */
+
+.servicios {
+    margin-left: 60px;
+    color: rgb(78, 78, 78);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.rx {
+    width: 1200px;
+    border-radius: 2px;
+}
+
+.eco {
+    width: 1200px;
+    border-radius: 2px;
+}
+
+.analisis {
+    width: 1200px;
+    border-radius: 2px;
+}
+
+.guarderia {
+    width: 1200px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+/* Compras */
+
+.comprasimg {
+    align-content: center;
+    padding: 25px 150px 25px 150px
+}
+
+/* Contacto */
+.form {
+    text-align: center;
+}
+
+.formh1 {
+    margin: 30px 545px 40px;
+
+}
+
+/* Blog */
+.fotoblog {
+    padding-left: 250px;
+    width: 700px;
+    position: relative;
+    top: 10px;
+    left: 12px;
+}

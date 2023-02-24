@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanus Veterinaria</title>
+    <!-- vinculo Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- favicon favorites icon -->
+    <link rel="shortcut icon" href="img/logo-kanus-gris-redondo.jpg">
+    <!-- vinculo CSS style -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbarHeader navbar navbar-expand-lg colorFondo mt-4 pt-3 mx-2">
+            <!-- logo home-->
+            <div class="container-fluid">
+                <a href="index.html" title="Kanus"><img src="./img/logo--blanco-letras.jpg" alt="Logo kanus"
+                        class="logokanusPrincipal img-fluid  mx-auto"></a>
+            </div>
+            <button class="navbar-toggler ms-auto mt-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- NAVBAR -->
+            <div class="navbarleft collapse navbar-collapse pe-5">
+                <ul class="listaNav navbar-nav ms-auto ">
+                    <li class="navbar home nav-item "><a href="index.html" title="Home"><i
+                                class="fa-solid fa-house "></i>
+                            <p class="navbarDes ">HOME</p>
+                        </a></li>
+                    <li class="navbar ourclinic nav-item"><a href="html/nuestraclinica.html" title="Nuestra Clínica"><i
+                                class="fa-solid fa-hospital"></i>
+                            <p class="navbarDes">CLÍNICA</p>
+                        </a></li>
+                    <li class="navbar service nav-item"><a href="html/servicios.html" title="Servicios"><i
+                                class="fa-solid fa-user-doctor"></i>
+                            <p class="navbarDes">SERVICIOS</p>
+                        </a></li>
+                    <li class="navbar compras"><a href="html/compras.html" title="Compras"><i
+                                class="fa-solid fa-cart-shopping"></i>
+                            <p class="navbarDes">SHOP</p>
+                        </a></li>
+                    <li class="navbar blog nav-item"><a href="html/blog.html" title="Blog"><i
+                                class="fa-solid fa-newspaper"></i>
+                            <p class="navbarDes">BLOG</p>
+                        </a>
+                    </li>
+                    <li class="navbar contacto nav-item"><a href="html/contacto.html" title="Contacto"><i
+                                class="fa-solid fa-people-group"></i></a>
+                        <p class="navbarDes">CONTACTO</p>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="intro">
+            <!-- CAROUSEL HOME  combinado-->
+            <div id="carouselExampleAutoplaying carouselExampleCaptions"
+                class="carousel slide my-3 d-block mx-auto carousel slide cauroselImg" data-bs-ride="carousel">
+                <div id="carouselExampleCaptions p-1" class="carousel slide">
+                    <div class="carousel-indicators ">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner carousel-inner">
+                        <div class="carousel-item active carousel-item active">
+                            <img src="img/caniche--verde.jpg" class="d-block w-100 carouselImg" alt="caniche">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p class="pCarouselTitulo">VACUNACÍON ANUAL</p>
+                                <p class="pCarousel">Planes de vacunacion y desparasitación</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/chiuhauha-verde.jpg" class="d-block w-100 carouselImg" alt="chiuhauha">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p Class="pCarouselTitulo">PELUQUERIA CANINA</p>
+                                <p class="pCarousel">baño y corte</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/dingo--verde.jpg" class="d-block w-100 carouselImg" alt="dingo">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p class="pCarouselTitulo">CONSULTAS CLÍNICAS</p>
+                                <p class="pCarousel">Medicina preventiva, consultas médicas, métodos complementarios</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <h1 class="kanus text-center text-md-start pt-4 p-1">Medicina integral para tu mejor amigo</h1>
+                <p class="parrafoIntro p-1 h5">Aunque quisiéramos que estuvieran por siempre a nuestro lado, nuestros fieles compañeros algún día comienzan a ponerse viejitos.
+                    En promedio comenzamos a considerar a nuestros peros y gatos como viejos a partir de los 9 años. En general perros mestizos o de razas pequeñas con más longevos y “comienzan a ponerse viejos” más tarde. Los de raza mediana y grande se consideran gerentes a los 9 o 10 años, y los de raza gigante, a partir de los 6 años.
+                    La vejez, al igual que en las personas, es la suma de los efectos de la edad avanzada sobre los procesos fisiológicos. Los perros seniles tienden a ser débiles, sordos, a veces ciegos o con visión disminuida, pueden temblar, suelen tener el pelo áspero y seco, y en algunas ocasiones pueden volverse menos tolerantes y hasta agresivos. Los gatos presentan los mismos signos a un grado menor que los perros, la pérdida del oído, la visión y la debilidad muscular son menos pronunciadas.
+                    La velocidad a la que una mascota parece envejecer es casi siempre consecuencia de la calidad de vida que mantuvo hasta el momento, con esto nos referimos a la alimentación, si ha tenido refugio, estado sanitario, etc.; también influye en esto la raza y la herencia genética.
+                    Cuando tenemos un perrito o gatito geronte deberíamos tener en cuenta que la necesidad de cuidados especiales y control médico son mayores. En general se recomienda hacer exámenes físicos generales cada 6 meses y un chequeo sanguíneo completo una vez por año, si nuestra mascota no sufre de ninguna patología crónica que requiera controles más frecuentes que los mencionados aquí. Realizando estos chequeos dos veces por año su Médico Veterinario puede detectar signos precoces de enfermedades que son comunes en animales gerontes (por ejemplo insuficiencia renal, insuficiencia cardíaca, deficiencias neurológicas, tumores, etc.); estos signos suelen ser sutiles, de aparición progresiva y por lo tanto difíciles de detectar por el propietario. 
+                </p>
+            </div>
+            <!-- BOTTON WHATSAPP SOLO EN TABLE Y ESCRITORIO -->
+            <div class="buttonWhatsApp d-none d-sm-none d-md-block">
+                <a href="https://web.whatsapp.com/send?phone=+54351-3495886" target="_blank"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+            </div>
+    </main>
+
+    <footer>
+        <div class="fotterPrincipal conteiner fluid">
+            <div class="fotterServicios row pt-5 pb-3 px-3">
+                <div class="phone col-xs-12 col-md-6 col-lg-3">
+                    <i class="fa-solid fa-phone"></i></li>
+                    <br><br>
+                    <ul>
+                        <li class="lifooter">0351-4821652</li>
+                        <li class="lifooter">0351-8947165</li>
+                        <li class="lifooter">0351-153495886</li>
+                    </ul>
+                </div>
+                <div class="schedule col-xs-12 col-md-6 col-lg-3">
+                    <i class="fa-solid fa-clock"></i>
+                    <br><br>
+                    <ul>
+                        <li class="lifooterHorario">HORARIOS</li>
+                        <li class="lifooter">Lunes a viernes de 9 a 21 h</li>
+                        <li class="lifooter">Sabados de 9 a 14 h</li>
+                    </ul>
+                </div>
+                <!-- PONT SOLO PARA TABLET Y ESCRITORIO -->
+                <div class="location col-xs-12 col-md-6 col-lg-3 d-none d-sm-none d-md-block">
+                    <i class="fa-solid fa-location-dot"></i></i>
+                    <br> <br>
+                    <ul>
+                        <li class="lifooter">Fader 3571</li>
+                        <li class="lifooter">Córdoba-Argentina</li>
+                    </ul>
+                </div>
+                <!-- GOOGLE MAPS TABLET Y ESCRITORIO -->
+                <div class="googlemaps col-xs-12 col-md-6 col-lg-3 d-none d-sm-none d-md-block">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d716.0750846820422!2d-64.2267550992899!3d-31.379770365332444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298d884e5b5a9%3A0x363f7772622aec2a!2sVeterinaria%20Kanus!5e0!3m2!1ses-419!2sar!4v1675102431131!5m2!1ses-419!2sar"
+                        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="googlemapsImg"></iframe>
+                </div>
+                <!-- GOOGLE MAPS SMARTPHONE -->
+                <div class="googlemapsResponsive d-block d-sm-block d-md-none">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d716.0750846820422!2d-64.2267550992899!3d-31.379770365332444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298d884e5b5a9%3A0x363f7772622aec2a!2sVeterinaria%20Kanus!5e0!3m2!1ses-419!2sar!4v1675102431131!5m2!1ses-419!2sar"
+                        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="googlemapsImg"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footerPrincipal2 conteiner fluid">
+            <!-- MENSAJE SEGUINOS SOLO EN SMARTPHONE -->
+            <p class="lifootermensaje pt-4 d-none d-sm-none d-md-block">Seguinos en nuestras redes</p>
+            <ul class="listafooterPrincipal2 py-2">
+                <li class="lifooterInsta"> <a href="https://www.instagram.com/kanusveterinaria/?hl=es"
+                        target="_blank"><i class="fa-brands fa-instagram"></i>
+                        <title>Instagram</title>
+                    </a></li>
+                <li class="lifotterfacebook"><a href="https://www.facebook.com/kanus.veterinaria/" title="Facebook"
+                        target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- vinculacion iconos -->
+    <script src="https://kit.fontawesome.com/2bb5f709fe.js" crossorigin="anonymous"></script>
+    <!-- vinculacion Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</html>
