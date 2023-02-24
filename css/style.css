@@ -14,7 +14,6 @@
     background-color: rgb(255, 255, 255);
     width: 600px;
     height: auto;
-    /* object-fit: cover */
 }
 
 .navbarleft {
@@ -47,15 +46,8 @@ a {
 
 /* iconos Navbar */
 /*****************/
-.fa-house 
-.fa-hospital
-.fa-user-doctor
-.fa-cart-shopping
-.fa-newspaper
-.fa-people-group 
-.fa-instagram
-.fa-facebook {
-    list-style-type: none;
+.fa-solid
+ {
     color: rgb(134, 134, 134);
     font-size: 27px;
     --ionicon-stroke-width: 35px;
@@ -68,14 +60,7 @@ a {
     margin-left: 20px;
 }
 
-.fa-house:hover 
-.fa-hospital:hover 
-.fa-user-doctor:hover 
-.fa-cart-shopping:hover 
-.fa-newspaper:hover 
-.fa-people-group:hover  
-.fa-instagram:hover 
-.fa-facebook:hover {
+.fa-solid:hover {
     color: rgb(56, 55, 55);
 }
 
@@ -161,6 +146,7 @@ p {
 .fa-phone,
 .fa-location-dot {
     color: rgb(177, 174, 174);
+    
 }
 
 .fa-instagram {
