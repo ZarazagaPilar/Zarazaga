@@ -51,8 +51,7 @@ a {
 
 /* iconos Navbar */
 /*****************/
-.fa-solid
- {
+.fa-solid {
     color: rgb(134, 134, 134);
     font-size: 160%;
     /* --ionicon-stroke-width: 35px; */
@@ -125,7 +124,7 @@ form {
 }
 
 .parrafoIntro,
-p { 
+p {
     color: rgb(170, 165, 165);
     font-family: 'Roboto', sans-serif;
     text-align: justify;
@@ -219,9 +218,11 @@ i {
 
 /* Nuestra Clínica */
 
-.imagenesfrentevete {
-    display: flex;
-    justify-content: center;
+.carouselclinica {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    margin-left: 25%;
 }
 
 h2 {
@@ -232,21 +233,12 @@ h2 {
     font-size: 25px;
 }
 
-.pilarbulldog,
-.taniachowchow {
-    margin-left: 200px;
-    margin-top: 30px;
-    border: 2px grey solid;
-}
+.cardPersonas{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
 
-.taniachowchow {
-    width: 320px;
 }
-
-.pilarbulldog {
-    width: 350px;
-}
-
 .equipodetrabajo {
     color: grey;
     font-family: 'Roboto', sans-serif;
@@ -268,6 +260,10 @@ h2 {
     margin-bottom: 10px;
 }
 
+.taniachowchow,
+.pilarbulldog {
+border-radius: 7px;
+}
 /* Servicios */
 
 .servicios {
@@ -320,16 +316,20 @@ h2 {
 .form-control {
     background-color: rgb(231, 229, 229);
 }
+
 .btn {
     background-color: rgb(88, 88, 88);
     border: none;
 }
+
 .btn:hover {
     background-color: rgb(3, 3, 3);
 }
+
 #h2form {
     text-align: center;
 }
+
 /* Blog */
 .fotoblog {
     padding-left: 250px;

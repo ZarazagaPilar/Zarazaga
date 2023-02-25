@@ -14,7 +14,6 @@
     <!-- vinculo CSS style -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
-
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbarHeader">
@@ -72,12 +71,22 @@
         </nav>
     </header>
     <main>
-        <h1>Nuestra Clínica</h1>
-        <section class="imagenesfrentevete">
-            <img src="../img/kanus--frente.jpg" alt="frente veterinaria" width="600" height="500">
-            <img src="../img/kanus--frente--2.jpeg" alt="frente veterinaria" width="600" height="500">
+        <h1 class="p-3 ms-5">Nuestra Clínica</h1>
+        <!-- CAROUSEL BASICO DE CLINICA -->
+        <section class="imagenesfrentevete mb-4">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active carouselclinica">
+                        <img src="../img/kanus--frente.jpg" class="d-block w-100" alt="frente de la veterinaria">
+                    </div>
+                    <div class="carousel-item carouselclinica">
+                        <img src="../img/kanus--frente--2.jpeg" class="d-block w-100" alt="frente de la veterinaria">
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="descripcionclinica">
+        <!-- PEQUEÑA DESCRIPCION DE CLINICA -->
+        <section class="descripcionclinica px-4 py-2">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio iusto odio ab quibusdam velit cum
                 porro perspiciatis repellendus unde? Laudantium tenetur, iusto tempore quod reprehenderit earum ducimus
                 aut accusamus sed excepturi officiis, facere vero vitae non voluptatibus. Sequi adipisci nihil
@@ -90,29 +99,32 @@
                 explicabo tempora perferendis corporis iure illo nesciunt beatae deserunt inventore aspernatur dolor
                 veritatis praesentium maiores, qui quas ipsum ipsam similique eos. Ut deleniti error accusamus fugiat.
             </p>
+<!-- EQUIPO DE TRABAJO -->
         </section>
         <section class="equipodetrabajo">
-            <div>
-                <h2 class="nuestraclinicah2">Nuestro equipo de trabajo</h2>
-                <div class="fotonombre">
-                    <div>
-                        <img class="pilarbulldog" src="../img/pilar-bulldog.jpg" alt="persona y bulldog">
-                        <h3 class="nuestraclinicah3">Zarazaga María del Pilar</h3>
+            <h2 class="nuestraclinicah2 mb-3">Nuestro equipo de trabajo</h2>
+<!-- CARDS -->
+            <div class="cardPersonas row mb-3">
+                <div class="card col-xs-12 col-md-6 col-lg-3 m-1" style="width: 18rem;">
+                    <img src="../img/pilar-bulldog.jpg" class="card-img-top pilarbulldog p-1" alt="persona y bulldog">
+                    <div class="card-body">
+                        <p class="card-text">Zarazaga María del PilaR</p>
                     </div>
-                    <div>
-                        <img class="taniachowchow" src="../img/tania--chowchow.jpg" alt="persona y chowchow">
-                        <h3 class="nuestraclinicah3">Lopez Tania</h3>
+                </div>
+                <div class="card col-xs-12 col-md-6 col-lg-3 m-1" style="width: 18rem;">
+                    <img src="../img/tania--chowchow.jpg" class="card-img-top taniachowchow p-1" alt="persona y chowchow">
+                    <div class="card-body">
+                        <p class="card-text">Lopez Tania</p>
                     </div>
                 </div>
             </div>
         </section>
-        <div class="buttonWhatsApp">
+<!-- BOTTON WHATSAPP SOLO EN TABLE Y ESCRITORIO -->
+          <div class="buttonWhatsApp d-none d-sm-none d-md-block">
             <a href="https://web.whatsapp.com/send?phone=+54351-3495886" target="_blank"><i
                     class="fa-brands fa-whatsapp"></i></a>
         </div>
-    </main>
-
-    <!--  FOOTER   -->
+<!--  FOOTER   -->
     <footer>
         <div class="fotterPrincipal conteiner fluid">
             <div class="fotterServicios row pt-5 pb-3 px-3">
