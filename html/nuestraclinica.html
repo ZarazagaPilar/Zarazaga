@@ -13,35 +13,63 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- vinculo CSS style -->
     <link rel="stylesheet" href="../css/style.css">
-
 </head>
 
 <body>
     <header>
-        <div class="navbarHeader">
-            <!-- logo home-->
-            <a href="../index.html" title="Kanus"><img src="../img/logo--blanco-letras.jpg" alt="Logo kanus"
-                    class="logokanusPrincipal"></a>
-            <!-- navBar -->
-            <nav class="navbarleft">
-                <ul class="listaNav">
-                    <li class="navbar home"><a href="../index.html" title="Home"><i class="fa-solid fa-house"></i></i>
-                    </li>
-                    <li class="navbar ourclinic"><a href="../html/nuestraclinica.html" title="Nuestra Clínica"><i
-                                class="fa-solid fa-hospital nav-link active"></i></a>
-                        <p class="navbarDes">CLÍNICA</p>
-                    </li>
-                    <li class="navbar service"><a href="../html/servicios.html" title="Servicios"><i
-                                class="fa-solid fa-user-doctor"></i></a></li>
-                    <li class="navbar compras"><a href="../html/compras.html" title="Compras"><i
-                                class="fa-solid fa-cart-shopping"></i></a></li>
-                    <li class="navbar blog"><a href="../html/blog.html" title="Blog"><i
-                                class="fa-solid fa-newspaper"></i></a></li>
-                    <li class="navbar contacto"><a href="../html/contacto.html" title="Contacto"><i
-                                class="fa-solid fa-people-group"></i></a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg navbarHeader">
+            <div class="container-fluid">
+                <!-- LOGO -->
+                <a class="navbar-brand" href="../index.html" title="Kanus"><img src="../img/logo--blanco-letras.jpg"
+                        alt="Logo kanus" class="logokanusPrincipal img-fluid mx-auto"></a>
+                <button class="navbar-toggler ms-auto mt-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--  NAVBAR  -->
+                <div class="collapse navbar-collapse navbarleft" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 listaNav">
+                        <li class="nav-item navbar">
+                            <a class="nav-link active" aria-current="page" href="../index.html"><i
+                                    class="fa-solid fa-house d-none d-sm-none d-md-none d-lg-block"></i>
+                                <p class="navbarDes">INICIO</p>
+                            </a>
+                        </li>
+                        <li class="nav-item navbar">
+                            <a class="nav-link" href="../html/nuestraclinica.html"><i
+                                    class="fa-solid fa-hospital d-none d-sm-none d-md-none d-lg-block"></i>
+                                <p class="navbarDes">CLÍNICA</p>
+                            </a>
+                        </li>
+                        <li class="nav-item navbar">
+                            <a class="nav-link" href="../html/servicios.html"><i
+                                    class="fa-solid fa-user-doctor d-none d-sm-none d-md-none d-lg-block"></i>
+                                <p class="navbarDes">SERVICIOS</p>
+                            </a>
+                        </li>
+                        <li class="nav-item navbar">
+                            <a class="nav-link" href="../html/compras.html"><i
+                                    class="fa-solid fa-cart-shopping d-none d-sm-none d-md-none d-lg-block"></i>
+                                <p class="navbarDes">COMPRAS</p>
+                            </a>
+                        </li>
+                        <li class="nav-item navbar">
+                            <a class="nav-link" href="../html/blog.html"><i
+                                    class="fa-solid fa-newspaper d-none d-sm-none d-md-none d-lg-block"></i>
+                                <p class="navbarDes">BLOG</p>
+                            </a>
+                        </li>
+                        <li class="nav-item navbar">
+                            <a class="nav-link" href="../html/contacto.html"><i
+                                    class="fa-solid fa-user-group d-none d-sm-none d-md-none d-lg-block"></i>
+                                <p class="navbarDes">CONTACTO</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
         <h1>Nuestra Clínica</h1>
@@ -84,51 +112,64 @@
         </div>
     </main>
 
+    <!--  FOOTER   -->
     <footer>
-        <div class="fotterPrincipal">
-            <div class="phone">
-                <i class="fa-solid fa-phone"></i></li>
-                <br><br>
-                <ul>
-                    <li class="lifooter"></li>0351-4821652</li>
-                    <li class="lifooter">0351-8947165</li>
-                    <li class="lifooter">0351-153495886</li>
-                </ul>
-            </div>
-            <div class="schedule">
-                <i class="fa-solid fa-clock"></i>
-                <br><br>
-                <ul>
-                    <li class="lifooterHorario">HORARIOS</li>
-                    <li class="lifooter">Lunes a viernes de 9 a 21 h</li>
-                    <li class="lifooter">Sabados de 9 a 14 h</li>
-                </ul>
-            </div>
-            <div class="location">
-                <i class="fa-solid fa-location-dot"></i></i>
-                <br> <br>
-                <ul>
-                    <li class="lifooter">Fader 3571</li>
-                    <li class="lifooter">Córdoba-Argentina</li>
-                </ul>
-            </div>
-            <div class="googlemaps">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d716.0750846820422!2d-64.2267550992899!3d-31.379770365332444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298d884e5b5a9%3A0x363f7772622aec2a!2sVeterinaria%20Kanus!5e0!3m2!1ses-419!2sar!4v1675102431131!5m2!1ses-419!2sar"
-                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="fotterPrincipal conteiner fluid">
+            <div class="fotterServicios row pt-5 pb-3 px-3">
+                <div class="phone col-xs-12 col-md-6 col-lg-3">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <br><br>
+                    <ul>
+                        <li class="lifooter">0351-4821652</li>
+                        <li class="lifooter">0351-8947165</li>
+                        <li class="lifooter">0351-153495886</li>
+                    </ul>
+                </div>
+                <div class="schedule col-xs-12 col-md-6 col-lg-3">
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <br><br>
+                    <ul>
+                        <li class="lifooterHorario">HORARIOS</li>
+                        <li class="lifooter">Lunes a viernes de 9 a 21 h</li>
+                        <li class="lifooter">Sabados de 9 a 14 h</li>
+                    </ul>
+                </div>
+                <!-- PONT SOLO PARA TABLET Y ESCRITORIO -->
+                <div class="location col-xs-12 col-md-6 col-lg-3 d-none d-sm-none d-md-block">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <br> <br>
+                    <ul>
+                        <li class="lifooter">Fader 3571</li>
+                        <li class="lifooter">Córdoba-Argentina</li>
+                    </ul>
+                </div>
+                <!-- GOOGLE MAPS TABLET Y ESCRITORIO -->
+                <div class="googlemaps col-xs-12 col-md-6 col-lg-3 d-none d-sm-none d-md-block pb-3">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d716.0750846820422!2d-64.2267550992899!3d-31.379770365332444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298d884e5b5a9%3A0x363f7772622aec2a!2sVeterinaria%20Kanus!5e0!3m2!1ses-419!2sar!4v1675102431131!5m2!1ses-419!2sar"
+                        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="googlemapsImg"></iframe>
+                </div>
+                <!-- GOOGLE MAPS SMARTPHONE -->
+                <div class="googlemapsResponsive d-block d-sm-block d-md-none">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d716.0750846820422!2d-64.2267550992899!3d-31.379770365332444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298d884e5b5a9%3A0x363f7772622aec2a!2sVeterinaria%20Kanus!5e0!3m2!1ses-419!2sar!4v1675102431131!5m2!1ses-419!2sar"
+                        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="googlemapsImg"></iframe>
+                </div>
             </div>
         </div>
-        <div class="footerPrincipal2">
-            <p class="lifootermensaje">Seguinos en nuestras redes</p>
-            <ul class="listafooter">
-                <li class="lifooterInsta"> <a href="https://www.instagram.com/kanusveterinaria/?hl=es"
-                        target="_blank"><i class="fa-brands fa-instagram"></i>
-                        <title>Instagram</title>
-                    </a></li>
-                <li class="lifotterfacebook"><a href="https://www.facebook.com/kanus.veterinaria/" title="Facebook"
-                        target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-            </ul>
+        <div class="footerPrincipal2 conteiner fluid">
+            <!-- MENSAJE SEGUINOS SOLO EN DESKTOP -->
+            <p class="lifootermensaje pt-4 d-none d-sm-none d-md-block">Seguinos en nuestras redes</p>
+            <nav>
+                <ul class="listafooterPrincipal2 py-2">
+                    <li class="lifooterInsta"> <a href="https://www.instagram.com/kanusveterinaria/?hl=es"
+                            title="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="lifotterfacebook"><a href="https://www.facebook.com/kanus.veterinaria/" title="Facebook"
+                            target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                </ul>
+            </nav>
         </div>
     </footer>
     <!-- vinculacion iconos -->
