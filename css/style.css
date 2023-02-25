@@ -126,6 +126,7 @@ p {
     font-family: 'Roboto', sans-serif;
     color: rgb(177, 174, 174);
     text-align: center;
+    align-items: center;
 }
 
 
@@ -142,21 +143,19 @@ p {
     font-weight: bold;
 }
 
-.fa-clock,
-.fa-phone,
-.fa-location-dot {
-    color: rgb(177, 174, 174);
-    
+i {
+    color: rgb(224, 224, 224);
+    margin-top: 10%;
 }
 
 .fa-instagram {
     color: rgb(168, 235, 81);
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .fa-facebook {
     color: rgb(168, 235, 81);
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .footerPrincipal2 {
@@ -180,6 +179,7 @@ p {
 .fa-instagram,
 .fa-facebook {
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .fa-instagram:hover,
@@ -198,6 +198,7 @@ p {
     left: 0.5%;
     right: 10%;
     top: 10%;
+    bottom: 10%;
     height: 100%;
     width: 100%;
     position: absolute;
