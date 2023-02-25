@@ -306,15 +306,30 @@ h2 {
 }
 
 /* Contacto */
+
 .form {
-    text-align: center;
+    font-size: large;
 }
 
 .formh1 {
-    margin: 30px 545px 40px;
+    text-align: center;
+    margin-top: 2%;
 
 }
 
+.form-control {
+    background-color: rgb(231, 229, 229);
+}
+.btn {
+    background-color: rgb(88, 88, 88);
+    border: none;
+}
+.btn:hover {
+    background-color: rgb(3, 3, 3);
+}
+#h2form {
+    text-align: center;
+}
 /* Blog */
 .fotoblog {
     padding-left: 250px;
