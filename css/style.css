@@ -268,33 +268,26 @@ h2 {
 }
 
 /* Servicios */
+/* ********* */
 
 .servicios {
-    margin-left: 60px;
+    margin-left: 3%;
+    margin-right: 3%;
     color: rgb(78, 78, 78);
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 120%;
 }
 
-.rx {
-    width: 1200px;
-    border-radius: 2px;
+.serviciosH2 {
+    font-weight: bolder;
 }
-
-.eco {
-    width: 1200px;
-    border-radius: 2px;
-}
-
-.analisis {
-    width: 1200px;
-    border-radius: 2px;
-}
-
+.rx,
+.eco,
+.analisis, 
 .guarderia {
-    width: 1200px;
-    border-radius: 2px;
-    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 /* Compras */
@@ -344,6 +337,11 @@ h2 {
     font-weight: bold;
     font-size: 100%;
 }
+
+input {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Contacto */
 
 .form {
