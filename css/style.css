@@ -97,6 +97,7 @@ a {
 }
 
 /* main */
+/* ********* */
 h1 {
     color: grey;
     font-family: 'Roboto', sans-serif;
@@ -132,6 +133,7 @@ p {
 }
 
 /* footer */
+/* ******** */
 .fotterPrincipal {
     background-color: rgb(56, 56, 56);
     border-radius: 2px;
@@ -233,12 +235,12 @@ h2 {
     font-size: 25px;
 }
 
-.cardPersonas{
+.cardPersonas {
     display: flex;
-    justify-content:space-around;
+    justify-content: center;
     align-items: center;
-
 }
+
 .equipodetrabajo {
     color: grey;
     font-family: 'Roboto', sans-serif;
@@ -248,7 +250,6 @@ h2 {
 
 .fotonombre {
     display: flex;
-
 }
 
 .nuestraclinicah3 {
@@ -262,8 +263,9 @@ h2 {
 
 .taniachowchow,
 .pilarbulldog {
-border-radius: 7px;
+    border-radius: 7px;
 }
+
 /* Servicios */
 
 .servicios {
@@ -299,6 +301,34 @@ border-radius: 7px;
 .comprasimg {
     align-content: center;
     padding: 25px 150px 25px 150px
+}
+
+.card-img-top {
+    width: 50%;
+    height: auto;
+}
+
+.cardProducto {
+    text-align: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.carritoCompras {
+    color: rgb(223, 224, 226);
+    scale: 80%;
+    padding: 0;
+    margin: 0;
+}
+
+.carritoCompras:hover {
+    color: rgb(223, 224, 226);
+}
+
+.footerCompras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Contacto */
