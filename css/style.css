@@ -102,6 +102,7 @@ h1 {
     color: grey;
     font-family: 'Roboto', sans-serif;
     font-variant: small-caps;
+    margin-left: 7%;
 }
 
 form {
@@ -113,13 +114,13 @@ form {
 .buttonWhatsApp {
     width: 70px;
     position: fixed;
-    bottom: 50px;
-    right: 50px;
+    bottom: 60px;
+    right: 15px;
 
 }
 
 .fa-brands {
-    font-size: 90px;
+    font-size: 65px;
     --ionicon-stroke-width: 35px;
     color: rgb(168, 235, 81);
 }
@@ -297,6 +298,7 @@ h2 {
 }
 
 /* Compras */
+/* ******** */
 
 .comprasimg {
     align-content: center;
@@ -304,7 +306,7 @@ h2 {
 }
 
 .card-img-top {
-    width: 50%;
+    width: 20%;
     height: auto;
 }
 
@@ -330,7 +332,18 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+.card-text {
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;  
 
+}
+.card-title {
+    color: rgb(48, 47, 47);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+}
 /* Contacto */
 
 .form {
