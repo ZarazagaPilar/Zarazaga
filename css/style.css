@@ -220,6 +220,7 @@ i {
 }
 
 /* Nuestra Clínica */
+/* **************** */
 
 .carouselclinica {
     width: 50%;
@@ -240,6 +241,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
 }
 
 .equipodetrabajo {
@@ -265,6 +267,7 @@ h2 {
 .taniachowchow,
 .pilarbulldog {
     border-radius: 7px;
+    scale: 150%;
 }
 
 /* Servicios */
@@ -377,10 +380,18 @@ input {
 }
 
 /* Blog */
-.fotoblog {
-    padding-left: 250px;
-    width: 700px;
-    position: relative;
-    top: 10px;
-    left: 12px;
+/* ***** */
+
+.imagenBlog {
+    width: 100%;
+    height: auto;
+
+}
+.contenedorBlog {
+    border: none;
+}
+
+.segundoBloque {
+    display: flex;
+    justify-content: center;
 }
