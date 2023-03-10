@@ -1,0 +1,94 @@
+/* FOOTER*/
+/*********/
+.fotterPrincipal {
+    background-color: $background-color_2;
+    border-radius: 2px;
+    font-family: $font-family_1;
+    color: $color_8;
+    text-align: center;
+    align-items: center;
+}
+
+.lifooter {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.lifooterHorario {
+    list-style-type: none;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.lifooterInsta {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.lifotterfacebook {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.lifootermensaje {
+    list-style-type: none;
+    margin-right: 30px;
+    font-family: $font-family_1;
+    color: $color_10;
+    font-size: 1.5em;
+}
+
+i {
+    color: $color_9;
+    margin-top: 10%;
+}
+
+.fa-instagram {
+    color: $color_6;
+    font-size: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+
+    &:hover {
+        color: $color_8;
+    }
+}
+
+.fa-facebook {
+    color: $color_6;
+    font-size: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+
+    &:hover {
+        color: $color_8;
+    }
+}
+
+.footerPrincipal2 {
+    background-color: $background-color_3;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.listafooterPrincipal2 {
+    display: flex;
+}
+
+.googlemapsResponsive {
+    overflow: hidden;
+    padding-bottom: 60%;
+    position: relative;
+    height: 0;
+
+    iframe {
+        left: 0.5%;
+        right: 10%;
+        top: 10%;
+        bottom: 10%;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+}

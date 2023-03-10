@@ -1,0 +1,53 @@
+/*NUESTRA CLINICA*/
+/*****************/
+.carouselclinica {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    margin-left: 25%;
+}
+
+h2 {
+    color: $color_5;
+    font-family: $font-family_1;
+    margin-left: 35px;
+    font-variant: small-caps;
+    font-size: 25px;
+}
+
+.cardPersonas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.equipodetrabajo {
+    color: $color_5;
+    font-family: $font-family_1;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+.fotonombre {
+    display: flex;
+}
+
+.nuestraclinicah3 {
+    text-align: center;
+    margin-left: 200px;
+}
+
+.nuestraclinicah2 {
+    margin-bottom: 10px;
+}
+
+.taniachowchow {
+    border-radius: 7px;
+    scale: 150%;
+}
+
+.pilarbulldog {
+    border-radius: 7px;
+    scale: 150%;
+}

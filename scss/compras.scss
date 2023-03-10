@@ -1,0 +1,51 @@
+/*COMPRAS*/
+/*********/
+.comprasimg {
+    align-content: center;
+    padding: 25px 150px 25px 150px;
+}
+
+.card-img-top {
+    width: 20%;
+    height: auto;
+}
+
+.cardProducto {
+    text-align: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.carritoCompras {
+    color: $color_12;
+    scale: 80%;
+    padding: 0;
+    margin: 0;
+
+    &:hover {
+        color: $color_12;
+    }
+}
+
+.footerCompras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text {
+    color: $color_5;
+    font-family: $font-family_1;
+    font-size: 100%;
+}
+
+.card-title {
+    color: $color_13;
+    font-family: $font-family_1;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+input {
+    font-family: $font-family_1;
+}
