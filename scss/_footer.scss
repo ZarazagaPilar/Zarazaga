@@ -1,5 +1,10 @@
 /* FOOTER*/
 /*********/
+@mixin footerInstaFace {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
 .fotterPrincipal {
     background-color: $background-color_2;
     border-radius: 2px;
@@ -10,8 +15,7 @@
 }
 
 .lifooter {
-    list-style-type: none;
-    margin-right: 30px;
+    @include footerInstaFace
 }
 
 .lifooterHorario {
@@ -21,8 +25,7 @@
 }
 
 .lifooterInsta {
-    list-style-type: none;
-    margin-right: 30px;
+    @include footerInstaFace
 }
 
 .lifotterfacebook {

@@ -1,5 +1,11 @@
 /*NUESTRA CLINICA*/
 /*****************/
+
+@mixin fotosIntegrantes {
+    border-radius: 7px;
+    scale: 150%;
+}
+
 .carouselclinica {
     width: 50%;
     height: auto;
@@ -43,11 +49,9 @@ h2 {
 }
 
 .taniachowchow {
-    border-radius: 7px;
-    scale: 150%;
+    @include fotosIntegrantes
 }
 
 .pilarbulldog {
-    border-radius: 7px;
-    scale: 150%;
+    @include fotosIntegrantes
 }

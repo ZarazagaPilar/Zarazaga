@@ -1,0 +1,41 @@
+/*CONTACTO*/
+/**********/
+.form {
+    font-size: large;
+}
+
+.formh1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.form-control {
+    background-color: $background-color_4;
+}
+
+.btn {
+    background-color: $background-color_2;
+    border: none;
+    color: white;
+
+    &:hover {
+        background-color: $background-color_6;
+        color: white;
+        cursor: pointer;
+		transform: translateY(-3px);
+		transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    &:active {
+		transform: translateY(3px);
+	}
+}
+.control {
+	&:focus {
+		height: 60px;
+        font-size: large;
+	}
+}
+
+#h2form {
+    text-align: center;
+}

@@ -1,5 +1,11 @@
 /* SERVICIOS*/
 /************/
+@mixin imagenesServicio {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
 .servicios {
     margin-left: 3%;
     margin-right: 3%;
@@ -14,27 +20,19 @@
 }
 
 .rx {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+    @include imagenesServicio;
 }
 
 .eco {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+    @include imagenesServicio;
 }
 
 .analisis {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+    @include imagenesServicio;
 }
 
 .guarderia {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+    @include imagenesServicio;
 }
 
 .textoServicios {
