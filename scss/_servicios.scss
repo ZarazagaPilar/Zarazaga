@@ -37,5 +37,67 @@
 
 .textoServicios {
     font-size: 95%;
-    margin: 1% 5% 1% 5%;
+    margin: 1% 5% 2% 5%;
+    text-align: justify;
+}
+
+.agendarCita {
+    display: flex;
+    justify-content: center;
+}
+
+.iconosServicios {
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.iconosServicios:hover {
+    cursor: pointer;
+    filter: grayscale(80%);
+    transition: all 0.5s;
+}
+
+.todosServicios {
+    margin-left: 10%;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.contenedorImagen {
+    position: relative;
+    display: inline-block;
+}
+
+.h2Servicios {
+    color: $color_2;
+}
+
+.contenedorServicios {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $color_2;
+    padding: 15px;
+}
+
+.contenedorImagen:hover .contenedorServicios {
+    display: block;
+}
+
+.contenedorServicios2 {
+    display: none;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-45%, -45%);
+    color: $color_2;
+    padding: 15px;
+}
+
+.contenedorImagen:hover .contenedorServicios2 {
+    display: block;
 }
