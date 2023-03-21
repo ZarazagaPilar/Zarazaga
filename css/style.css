@@ -19,6 +19,10 @@ form {
   right: 15px;
 }
 
+.whatsappFooter {
+  font-size: 2%;
+}
+
 .fa-brands {
   font-size: 65px;
   --ionicon-stroke-width: 35px;
@@ -185,6 +189,16 @@ i {
   margin-top: 10px;
 }
 .fa-facebook:hover {
+  color: rgb(177, 174, 174);
+}
+
+.whatsappFooter {
+  color: rgb(168, 235, 81);
+  font-size: 40px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.whatsappFooter:hover {
   color: rgb(177, 174, 174);
 }
 
@@ -414,11 +428,14 @@ h2 {
   top: 50%;
   left: 50%;
   transform: translate(-60%, -60%);
-  color: rgb(56, 55, 55);
+  color: rgb(134, 134, 134);
   padding: 2%;
 }
 
 .contenedorImagen:hover .contenedorServicios {
+  display: block;
+}
+.contenedorImagen:hover .contenedorServicios2 {
   display: block;
 }
 
@@ -428,12 +445,8 @@ h2 {
   top: 50%;
   left: 50%;
   transform: translate(-65%, -65%);
-  color: rgb(56, 55, 55);
+  color: rgb(134, 134, 134);
   padding: 2%;
-}
-
-.contenedorImagen:hover .contenedorServicios2 {
-  display: block;
 }
 
 .fa-arrow-up {

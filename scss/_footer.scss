@@ -68,12 +68,23 @@ i {
     }
 }
 
+.whatsappFooter {
+    color: $color_6;
+    font-size: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+
+    &:hover {
+        color: $color_8;
+    }
+}
 .footerPrincipal2 {
     background-color: $background-color_3;
     border-radius: 2px;
     display: flex;
     justify-content: center;
 }
+
 
 .listafooterPrincipal2 {
     display: flex;

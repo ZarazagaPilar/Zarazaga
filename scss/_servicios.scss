@@ -78,33 +78,34 @@
 }
 
 .contenedorServicios {
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-60%, -60%);
-    color: $color_2;
-    padding: 2%;
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-60%, -60%);
+	color: $color_1;
+	padding: 2%;
 }
-
-.contenedorImagen:hover .contenedorServicios {
-    display: block;
+.contenedorImagen {
+	&:hover {
+		.contenedorServicios {
+			display: block;
+		}
+		.contenedorServicios2 {
+			display: block;
+		}
+	}
 }
-
 .contenedorServicios2 {
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-65%, -65%);
-    color: $color_2;
-    padding: 2%;
-}
-
-.contenedorImagen:hover .contenedorServicios2 {
-    display: block;
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-65%, -65%);
+	color: $color_1;
+	padding: 2%;
 }
 .fa-arrow-up {
-    font-size: 95%;
-    padding: 19%;
+	font-size: 95%;
+	padding: 19%;
 }
