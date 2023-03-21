@@ -44,6 +44,7 @@
 .agendarCita {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .iconosServicios {
@@ -72,6 +73,8 @@
 
 .h2Servicios {
     color: $color_2;
+    font-family:$font-family_1;
+    font-size: 150%;
 }
 
 .contenedorServicios {
@@ -79,9 +82,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-60%, -60%);
     color: $color_2;
-    padding: 15px;
+    padding: 2%;
 }
 
 .contenedorImagen:hover .contenedorServicios {
@@ -91,13 +94,17 @@
 .contenedorServicios2 {
     display: none;
     position: absolute;
-    top: 45%;
-    left: 45%;
-    transform: translate(-45%, -45%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-65%, -65%);
     color: $color_2;
-    padding: 15px;
+    padding: 2%;
 }
 
 .contenedorImagen:hover .contenedorServicios2 {
     display: block;
+}
+.fa-arrow-up {
+    font-size: 95%;
+    padding: 19%;
 }
