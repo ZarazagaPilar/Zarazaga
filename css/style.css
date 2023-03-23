@@ -19,10 +19,6 @@ form {
   right: 15px;
 }
 
-.whatsappFooter {
-  font-size: 2%;
-}
-
 .fa-brands {
   font-size: 65px;
   --ionicon-stroke-width: 35px;
@@ -339,6 +335,132 @@ h2 {
 .pilarbulldog {
   border-radius: 7px;
   scale: 150%;
+}
+
+/* GALERIA DE FOTOS*/
+/*******************/
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+.portfolio .portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: rgb(88, 88, 88);
+}
+.portfolio .portfolio-wrap::before {
+  content: "";
+  background: rgb(231, 229, 229);
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  top: 30px;
+  bottom: 30px;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+.portfolio .portfolio-wrap .portfolio-info {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio .portfolio-wrap .portfolio-info::before {
+  display: block;
+  content: "";
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  border-top: 3px solid rgb(170, 165, 165);
+  border-left: 3px solid rgb(170, 165, 165);
+  transition: all 0.5s ease 0s;
+  z-index: 9994;
+}
+.portfolio .portfolio-wrap .portfolio-info::after {
+  display: block;
+  content: "";
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  bottom: 35px;
+  right: 35px;
+  border-bottom: 3px solid rgb(170, 165, 165);
+  border-right: 3px solid rgb(170, 165, 165);
+  transition: all 0.5s ease 0s;
+  z-index: 9994;
+}
+.portfolio .portfolio-wrap .portfolio-info h2 {
+  font-size: 20px;
+  color: rgb(56, 55, 55);
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.portfolio .portfolio-wrap .portfolio-info p {
+  color: rgb(134, 134, 134);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.portfolio .portfolio-wrap:hover::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+}
+.portfolio .portfolio-wrap:hover .portfolio-info {
+  opacity: 0.8;
+}
+.portfolio .portfolio-wrap:hover .portfolio-info::before {
+  top: 15px;
+  left: 15px;
+}
+.portfolio .portfolio-wrap:hover .portfolio-info::after {
+  bottom: 15px;
+  right: 15px;
+}
+
+.portfolio-details {
+  padding-top: 40px;
+}
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+  height: auto;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgb(255, 255, 255);
+  opacity: 1;
+  border: 1px solid rgb(134, 134, 134);
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: rgb(56, 56, 56);
+}
+
+.enunciadoFotos {
+  font-family: "Roboto", sans-serif;
+  color: rgb(134, 134, 134);
+  font-size: larger;
 }
 
 /* SERVICIOS*/
