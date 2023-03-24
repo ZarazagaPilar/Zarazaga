@@ -6,6 +6,12 @@
     scale: 150%;
 }
 
+.nuestraClinica {
+    color: $color_11;
+    margin: 2% 0% 0% 5%;
+    font-family: $font-family_1;
+}
+
 .carouselclinica {
     width: 50%;
     height: auto;
@@ -18,10 +24,11 @@
     font-family: $font-family_1;
     text-align: justify;
     font-size: large;
+    margin: 1% 5% 1% 5%;
 }
 
 h2 {
-    color: $color_5;
+    color: $color_11;
     font-family: $font-family_1;
     margin-left: 35px;
     font-variant: small-caps;
@@ -46,11 +53,6 @@ h2 {
     display: flex;
 }
 
-.nuestraclinicah3 {
-    text-align: center;
-    margin-left: 200px;
-}
-
 .nuestraclinicah2 {
     margin-bottom: 10px;
 }
@@ -65,11 +67,12 @@ h2 {
 
 /* GALERIA DE FOTOS*/
 /*******************/
-.portfolio {
-    .portfolio-item {
+.galeriaFotos {
+    .galeriaFotos-item {
         margin-bottom: 30px;
     }
-    .portfolio-wrap {
+
+    .galeriaFotos-wrap {
         transition: 0.3s;
         position: relative;
         overflow: hidden;
@@ -89,7 +92,7 @@ h2 {
             opacity: 0;
         }
 
-        .portfolio-info {
+        .galeriaFotos-info {
             opacity: 0;
             position: absolute;
             top: 0;
@@ -134,7 +137,7 @@ h2 {
 
             h2 {
                 font-size: 20px;
-                color: $color_2;
+                color: $color_11;
                 font-weight: 600;
                 font-family: $font-family_1;
             }
@@ -158,7 +161,7 @@ h2 {
                 opacity: 0.8;
             }
 
-            .portfolio-info {
+            .galeriaFotos-info {
                 opacity: 0.8;
 
                 &::before {
@@ -175,10 +178,10 @@ h2 {
     }
 }
 
-.portfolio-details {
+.galeriaFotos-details {
     padding-top: 40px;
 
-    .portfolio-details-slider {
+    .galeriaFotos-details-slider {
         img {
             width: 100%;
             height: auto;
@@ -204,7 +207,72 @@ h2 {
 }
 
 .enunciadoFotos {
-    font-family:$font-family_1;
+    font-family: $font-family_1;
     color: $color_1;
     font-size: larger;
+    margin: 2% 0% 2% 0%;
+}
+
+/*NUESTRO EQUIPO DE TRABAJO */
+/****************************/
+.textoEquipo {
+    font-family: $font-family_1;
+    color: $color_1;
+    text-align: justify;
+    font-size: large;
+    margin: 2% 0% 2% 0%;
+}
+
+.services .img {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.services .img img {
+    transition: 0.6s;
+}
+
+.contenedorEquipo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.services .details {
+    padding: 20px 30px;
+    margin: -40px 30px 0 30px;
+    background: $color_3;
+    position: relative;
+    background: $color_3;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 0 25px $color_11;
+}
+
+.services .details h3 {
+    color: $color_5;
+    font-weight: bolder;
+    font-family: $font-family_1;
+    margin: 1px 0 1px 0;
+    font-size: 115%;
+}
+
+.services .details p {
+    line-height: 30px;
+    font-size: 14px;
+    margin-bottom: 0;
+    color: $color_11;
+    font-family: $font-family_1;
+}
+
+.services .service-item:hover .details h3 {
+    color: $color_2;
+}
+
+.services .service-item:hover .details i {
+    color: $color_2;
+}
+
+.services .service-item:hover .img img {
+    transform: scale(1.1);
 }
