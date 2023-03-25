@@ -42,6 +42,44 @@
 		background-attachment: fixed;
 	}
 }
+/*TABLET*/
+/*********/
+
+@media (min-width: 766px) and (max-width: 1024px) {
+	#generalKanus {
+		width: 100%;
+		height: 90vh;
+		background: url("../img/rodesian--verde--parado-tablet.jpg") top center;
+		background-size: cover;
+		margin-bottom: -10px;
+	}
+	.tituloKanus {
+		padding: 15% 0% 0.3% 0%;
+		font-size: 280%;
+		font-weight: 700;
+		line-height: 1.2;
+		color: $color_2;
+		font-family: $font-family_1;
+	}
+	
+	.mensajeKanus {
+		color: $color_11;
+		padding: 0% 0% 0% 0%;
+		margin: 0% 0% 0% 0%;
+		font-size: 230%;
+		font-family: $font-family_1;
+	}
+	
+	.parrafoIntro {
+		color: $color_11;
+		font-family: $font-family_1;
+		text-align: justify;
+		margin: 2% 15% 3% 3%;
+		padding-bottom: 3%;
+		font-size: 170%;
+	}
+}
+
 /*SMARTPHONE*/
 /***********/
 @media (max-width: 575px) {
