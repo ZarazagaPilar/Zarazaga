@@ -3,7 +3,7 @@
 
 @mixin fotosIntegrantes {
     border-radius: 7px;
-    scale: 150%;
+    scale: 100%;
 }
 
 .nuestraClinica {
@@ -15,9 +15,7 @@
 h2 {
     color: $color_11;
     font-family: $font-family_1;
-    margin-left: 35px;
     font-variant: small-caps;
-    font-size: 25px;
 }
 
 .textoClinica {
@@ -68,22 +66,87 @@ h2 {
     .textoClinica {
         display: none;
     }
+
+    .textoEquipo {
+        font-family: $font-family_1;
+        color: $color_1;
+        text-align: justify;
+        font-size: 100%;
+        margin: 3% 3% 5% 2%;
+    }
+    .tituloEquipo {
+        margin: 5% 0% 3% 3%;
+        font-size: 100%;
+    }
+    .tituloFotos {
+        margin-top: 9%;
+        font-family: $font-family_1;
+        color: $color_13;
+        font-size: 100%;
+        margin-bottom: 5%;
+    }
+    .enunciadoFotos {
+        font-family: $font-family_1;
+        color: $color_1;
+        font-size: 100%;
+        margin: 1% 0% 1% 0%;
+        text-align: justify;
+    }
+    .contenedorEquipo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5%;
+        padding-bottom: 5%;
+    }
 }
 
 @media (min-width: 766px) and (max-width: 1024px) {
     .textoClinica {
-        font-size: large;
+        font-size: 125%;
         color: $color_1;
         text-align: justify;
-        line-height: 1.3;
+        line-height: 1.5;
     }
 
     .imagenClinica {
-        content: url(../img/kanus--frente--2---tablet.jpg)
+        content: url(../img/kanus--frente--tablet.jpg)
     }
 
     .imagenClinica2 {
-        content: url(../img/kanus--frente--tablet.jpg)
+        content: url(../img/kanus--frente--2---tablet.jpg)
+    }
+    .tituloFotos {
+        margin-top: 7%;
+        font-family: $font-family_1;
+        color: $color_13;
+        font-size: 180%;
+        margin-bottom: 5%;
+    }
+    .enunciadoFotos {
+        font-family: $font-family_1;
+        color: $color_1;
+        font-size: 150%;
+        margin: 2% 0% 2% 0%;
+        text-align: justify;
+    }
+
+    .tituloEquipo {
+        margin: 2% 0% 3% 7%;
+        font-size: 180%;
+    }
+
+    .textoEquipo {
+        font-family: $font-family_1;
+        color: $color_1;
+        text-align: justify;
+        font-size: 150%;
+        margin: 2% 0% 2% 7%;
+    }
+    .contenedorEquipo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3%;
+        margin-left: 15%;
     }
 }
 
@@ -95,6 +158,7 @@ h2 {
 
 /* GALERIA DE FOTOS*/
 /*******************/
+
 .galeriaFotos {
     .galeriaFotos-item {
         margin-bottom: 3%;
@@ -202,63 +266,70 @@ h2 {
             }
         }
     }
-}
 
-.tituloFotos {
-    margin-top: 5%;
-    font-family: $font-family_1;
-    color: $color_13;
-    font-size: 150%;
-}
+    .galeriaFotos-details {
+        padding-top: 40px;
 
-.galeriaFotos-details {
-    padding-top: 40px;
-
-    .galeriaFotos-details-slider {
-        img {
-            width: 100%;
-            height: auto;
-        }
-
-        .swiper-pagination {
-            margin-top: 20px;
-            position: relative;
-
-            .swiper-pagination-bullet {
-                width: 12px;
-                height: 12px;
-                background-color: $background-color_1;
-                opacity: 1;
-                border: 1px solid $color_1;
+        .galeriaFotos-details-slider {
+            img {
+                width: 100%;
+                height: auto;
             }
 
-            .swiper-pagination-bullet-active {
-                background-color: $background-color_2;
+            .swiper-pagination {
+                margin-top: 20px;
+                position: relative;
+
+                .swiper-pagination-bullet {
+                    width: 12px;
+                    height: 12px;
+                    background-color: $background-color_1;
+                    opacity: 1;
+                    border: 1px solid $color_1;
+                }
+
+                .swiper-pagination-bullet-active {
+                    background-color: $background-color_2;
+                }
             }
         }
     }
 }
 
-.enunciadoFotos {
-    font-family: $font-family_1;
-    color: $color_1;
-    font-size: larger;
-    margin: 2% 0% 2% 0%;
-}
+@media (min-width: 1024px) {
+    .enunciadoFotos {
+        font-family: $font-family_1;
+        color: $color_1;
+        font-size: larger;
+        margin: 2% 0% 2% 0%;
+    }
 
+    .tituloFotos {
+        margin-top: 7%;
+        font-family: $font-family_1;
+        color: $color_13;
+        font-size: 110%;
+        margin-bottom: 5%;
+    }
+}
 
 /*NUESTRO EQUIPO DE TRABAJO */
 /****************************/
-.tituloEquipo {
-    margin: 2% 1% 3% 7%;
-}
 
-.textoEquipo {
-    font-family: $font-family_1;
-    color: $color_1;
-    text-align: justify;
-    font-size: large;
-    margin: 2% 1% 3% 10%;
+
+@media (min-width: 1024px) {
+    .textoEquipo {
+        font-family: $font-family_1;
+        color: $color_1;
+        text-align: justify;
+        font-size: large;
+        margin: 2% 3% 3% 1%;
+    }
+
+    .tituloEquipo {
+        margin: 2% 1% 3% 7%;
+        font-size: 110%;
+    }
 }
 
 .services .img {
@@ -269,12 +340,13 @@ h2 {
 .services .img img {
     transition: 0.6s;
 }
-
-.contenedorEquipo {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 3%;
-    margin-left: 10%;
+@media (min-width: 1024px) {
+    .contenedorEquipo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3%;
+        margin-left: 10%;
+    }
 }
 
 .services .details {
