@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap";
 #generalKanus {
-  height: 150%;
-  width: auto;
+  width: 100%;
+  height: 90vh;
   background: url("../img/rodesian--verde.jpg") top center;
   background-size: cover;
   margin-bottom: -10px;
@@ -10,7 +10,6 @@
 .container {
   position: relative;
   margin: 0% 2% 0% 2%;
-  width: 400%;
 }
 
 .tituloKanus {
@@ -56,7 +55,7 @@
   }
   .tituloKanus {
     padding: 2% 0% 0% 0%;
-    font-size: 125%;
+    font-size: 150%;
     font-weight: 700;
     line-height: 1.2;
     color: rgb(56, 55, 55);
@@ -64,9 +63,9 @@
   }
   .mensajeKanus {
     color: rgb(78, 78, 78);
-    padding: 0% 0% 22% 0%;
+    padding: 0% 0% 80% 0%;
     margin: 0% 0% 0% 0%;
-    font-size: 100%;
+    font-size: 125%;
     font-family: "Roboto", sans-serif;
   }
   .parrafoIntro {
@@ -87,13 +86,6 @@
     font-size: 80%;
   }
 }
-.buttonWhatsApp {
-  width: 70px;
-  position: fixed;
-  bottom: 60px;
-  right: 15px;
-}
-
 .fa-brands {
   font-size: 65px;
   --ionicon-stroke-width: 35px;
@@ -188,7 +180,8 @@ a {
 
 .lifooter {
   list-style-type: none;
-  margin-right: 30px;
+  margin-right: 15%;
+  margin-bottom: 1%;
 }
 
 .lifooterHorario {
@@ -199,7 +192,8 @@ a {
 
 .lifooterInsta {
   list-style-type: none;
-  margin-right: 30px;
+  margin-right: 15%;
+  margin-bottom: 1%;
 }
 
 .lifotterfacebook {
@@ -216,15 +210,27 @@ a {
 }
 
 i {
+  font-size: 130%;
   color: rgb(224, 224, 224);
-  margin-top: 10%;
+  margin-top: 20%;
+  margin-bottom: 10%;
 }
 
+/*SOLO SMARTPHONE - TABLET*/
+/*****************/
+@media (max-width: 767px) {
+  i {
+    color: rgb(224, 224, 224);
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+}
+/********************************/
 .fa-instagram {
   color: rgb(168, 235, 81);
-  font-size: 40px;
+  font-size: 270%;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 5%;
 }
 .fa-instagram:hover {
   color: rgb(177, 174, 174);
@@ -232,9 +238,9 @@ i {
 
 .fa-facebook {
   color: rgb(168, 235, 81);
-  font-size: 40px;
+  font-size: 270%;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 5%;
 }
 .fa-facebook:hover {
   color: rgb(177, 174, 174);
@@ -242,17 +248,17 @@ i {
 
 .whatsappFooter {
   color: rgb(168, 235, 81);
-  font-size: 40px;
+  font-size: 270%;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 5%;
+  margin-left: 0%;
 }
 .whatsappFooter:hover {
   color: rgb(177, 174, 174);
 }
 
 .footerPrincipal2 {
-  background-color: rgb(44, 44, 44);
-  border-radius: 2px;
+  background-color: rgb(56, 56, 56);
   display: flex;
   justify-content: center;
 }
@@ -336,27 +342,19 @@ input {
   font-family: "Roboto", sans-serif;
 }
 
-.carouselclinica {
-  width: 50%;
-  height: auto;
-  object-fit: cover;
-  margin-left: 25%;
-}
-
-.parrafoNuestra {
-  color: rgb(170, 165, 165);
-  font-family: "Roboto", sans-serif;
-  text-align: justify;
-  font-size: large;
-  margin: 1% 5% 1% 5%;
-}
-
 h2 {
   color: rgb(78, 78, 78);
   font-family: "Roboto", sans-serif;
   margin-left: 35px;
   font-variant: small-caps;
   font-size: 25px;
+}
+
+.textoClinica {
+  font-size: larger;
+  color: rgb(134, 134, 134);
+  text-align: justify;
+  line-height: 1.6;
 }
 
 .cardPersonas {
@@ -391,17 +389,47 @@ h2 {
   scale: 150%;
 }
 
+.textoClinicaPhone {
+  color: grey;
+  font-family: "Roboto", sans-serif;
+  font-variant: small-caps;
+  font-size: 100%;
+}
+
+@media (max-width: 766px) {
+  .textoClinica {
+    display: none;
+  }
+}
+@media (min-width: 766px) and (max-width: 1024px) {
+  .textoClinica {
+    font-size: large;
+    color: rgb(134, 134, 134);
+    text-align: justify;
+    line-height: 1.3;
+  }
+  .imagenClinica {
+    content: url(../img/kanus--frente--2---tablet.jpg);
+  }
+  .imagenClinica2 {
+    content: url(../img/kanus--frente--tablet.jpg);
+  }
+}
+@media (min-width: 767px) {
+  .textoClinicaPhone {
+    display: none;
+  }
+}
 /* GALERIA DE FOTOS*/
 /*******************/
 .galeriaFotos .galeriaFotos-item {
-  margin-bottom: 30px;
+  margin-bottom: 3%;
 }
 .galeriaFotos .galeriaFotos-wrap {
   transition: 0.3s;
   position: relative;
-  overflow: hidden;
   z-index: 1;
-  background: rgb(88, 88, 88);
+  background: rgb(255, 255, 255);
 }
 .galeriaFotos .galeriaFotos-wrap::before {
   content: "";
@@ -457,7 +485,7 @@ h2 {
   z-index: 9994;
 }
 .galeriaFotos .galeriaFotos-wrap .galeriaFotos-info h2 {
-  font-size: 20px;
+  font-size: 2%;
   color: rgb(78, 78, 78);
   font-weight: 600;
   font-family: "Roboto", sans-serif;
@@ -466,7 +494,6 @@ h2 {
   color: rgb(134, 134, 134);
   font-size: 14px;
   text-transform: uppercase;
-  padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
@@ -487,6 +514,13 @@ h2 {
 .galeriaFotos .galeriaFotos-wrap:hover .galeriaFotos-info::after {
   bottom: 15px;
   right: 15px;
+}
+
+.tituloFotos {
+  margin-top: 5%;
+  font-family: "Roboto", sans-serif;
+  color: rgb(48, 47, 47);
+  font-size: 150%;
 }
 
 .galeriaFotos-details {
@@ -520,12 +554,16 @@ h2 {
 
 /*NUESTRO EQUIPO DE TRABAJO */
 /****************************/
+.tituloEquipo {
+  margin: 2% 1% 3% 7%;
+}
+
 .textoEquipo {
   font-family: "Roboto", sans-serif;
   color: rgb(134, 134, 134);
   text-align: justify;
   font-size: large;
-  margin: 2% 0% 2% 0%;
+  margin: 2% 1% 3% 10%;
 }
 
 .services .img {
@@ -541,6 +579,7 @@ h2 {
   display: flex;
   justify-content: center;
   margin-bottom: 3%;
+  margin-left: 10%;
 }
 
 .services .details {
