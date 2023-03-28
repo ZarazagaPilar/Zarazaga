@@ -1,6 +1,9 @@
 /* header */
 /* nav bar */
 /*****************/
+header {
+    overflow-x: hidden;
+}
 .navbarHeader {
     display: flex;
     justify-content: space-between;
